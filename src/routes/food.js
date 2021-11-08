@@ -23,7 +23,7 @@ async function getAllFoods(req,res){
   
   async function createFood(req,res){
     let newFood = req.body;
-    
+  
     let creatFood = await Food.create(newFood);
     res.status(200).json(creatFood);
   

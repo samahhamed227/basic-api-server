@@ -19,7 +19,7 @@ afterAll(async () => {
 describe('Web server', () => {
 
 //first way
-   it('Should check the add food response it work Successfully', async () => {
+   test('Should check the add food response it work Successfully', async () => {
         let param = '/food';
         let obj = {
             foodName: "pizza",
