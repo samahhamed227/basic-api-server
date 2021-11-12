@@ -5,7 +5,7 @@
 
 * [GitHub Repo Link](https://github.com/samahhamed227/basic-api-server)
 
-* [Heroku Link](https://samah-basic-api-server.herokuapp.com/) :https://samah-api-express-server.herokuapp.com/
+* [Heroku Link](https://samah-basic-api-server.herokuapp.com) : db food 🧆https://samah-basic-api-server.herokuapp.com/food
 
 * [Test Report](https://github.com/samahhamed227/basic-api-server/actions)
 * [Front end]()
