@@ -22,7 +22,7 @@ describe('Web server', () => {
 
     test('check to add one record', async () => {
         const foodRespons = await request.post('/food').send({
-            foodName : "fries",
+            foodName : "mansaf",
             foodType : "home"
         });
       
@@ -32,7 +32,7 @@ describe('Web server', () => {
     test('check to add one record', async () => {
       
         const clothesRespons = await request.post('/clothes').send({
-            clothesName : "skirt",
+            clothesName : "T-shirt",
             clothesBrand:"zara" 
                 
         });
