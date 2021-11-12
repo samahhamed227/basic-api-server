@@ -15,12 +15,12 @@ let sequelizeOptions = process.env.NODE_ENV === 'production' ? {
 
   let sequelize = new Sequelize(POSTGRES_URI, sequelizeOptions);
 
-  const food = require('./food');
+  const Food = require('./food');
   const clothes = require('./clothes')
 
   module.exports = {
       db : sequelize,
-      Food : food(sequelize,DataTypes),
+      Food : Food(sequelize,DataTypes),
       Clothes : clothes(sequelize,DataTypes)
       
   };
