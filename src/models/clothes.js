@@ -6,7 +6,7 @@ const Clothes = (sequelize, DataTypes) => sequelize.define('Clothes', {
         allowNull: false,
     },
     clothesBrand: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: false,
       },
 });

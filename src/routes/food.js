@@ -25,7 +25,7 @@ async function getAllFoods(req,res){
     let newFood = req.body;
   
     let creatFood = await Food.create(newFood);
-    res.status(200).json(creatFood);
+    res.status(201).json(creatFood);
   
   }
   
@@ -34,7 +34,7 @@ async function getAllFoods(req,res){
     let obj = req.body;
     let findFood =  await Food.findOne({ where: {id:id}});
     let updateFood = await findFood.update(obj);
-    res.status(200).json(updateFood);
+    res.status(201).json(updateFood);
   }
   
   async function deleteFood(req,res){
